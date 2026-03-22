@@ -11,4 +11,4 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
   self:
-    path: config
+    path: miryoku_zmk_corne36/config
