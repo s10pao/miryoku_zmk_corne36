@@ -1,6 +1,8 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#include "zmk-helpers/key-labels/42.h"
+
 / {
   behaviors {
     u_mt: u_mt {

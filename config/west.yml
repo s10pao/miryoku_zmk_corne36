@@ -14,6 +14,6 @@ manifest:
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
-      import: include/zmk-helpers
+      import: include
   self:
     path: config
