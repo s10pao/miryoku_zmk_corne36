@@ -38,4 +38,6 @@ MIRYOKU_SHIFT_FUNCTION(u_rgb_bri, &rgb_ug RGB_BRI, &rgb_ug RGB_BRD)
 
 MIRYOKU_SHIFT_FUNCTION(u_ep_tog, &ext_power EP_TOG, &ext_power EP_OFF)
 
+MIRYOKU_SHIFT_FUNCTION(u_soft_off_shift_bootloader, &soft_off, &bootloader)
+
 #endif

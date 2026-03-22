@@ -10,6 +10,7 @@
   #define U_RGB_SAI &u_rgb_sai
   #define U_RGB_BRI &u_rgb_bri
   #define U_EP_TOG &u_ep_tog
+  #define U_BOOT    &u_soft_off_shift_bootloader
 #else
   #define U_RGB_TOG &rgb_ug RGB_TOG
   #define U_RGB_EFF &rgb_ug RGB_EFF
@@ -17,4 +18,5 @@
   #define U_RGB_SAI &rgb_ug RGB_SAI
   #define U_RGB_BRI &rgb_ug RGB_BRI
   #define U_EP_TOG &ext_power EP_TOG
+  #define U_BOOT    &bootloader
 #endif
