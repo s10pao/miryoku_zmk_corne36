@@ -8,6 +8,9 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob/
+    # Custom graphics
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,5 +18,8 @@ manifest:
     - name: zmk-helpers
       remote: urob
       import: include
+    - name: nice-view-gem
+      remote: m165437
+      revision: main
   self:
     path: config
