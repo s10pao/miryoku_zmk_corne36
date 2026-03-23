@@ -1,4 +1,4 @@
-name: Build ZMK firmware with dongle
+name: Build ZMK firmware with custom graphics
 on: workflow_dispatch
 
 jobs:
