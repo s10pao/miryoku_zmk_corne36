@@ -15,12 +15,12 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-      revision: v0.3-branch
+      revision: v0.3.0 #v0.3-branch
     - name: zmk-helpers
       remote: urob
       import: include
     - name: nice-view-gem
       remote: s10pao #m165437
-      revision: v0.3.0_custom #main
+      revision: v0.3.0 #v0.3.0_custom #main
   self:
     path: config
