@@ -9,7 +9,7 @@ manifest:
     - name: urob
       url-base: https://github.com/urob/
     # Custom graphics
-    - name: s10pa #m165437
+    - name: s10pao #m165437
       url-base: https://github.com/s10pao/ #https://github.com/M165437
   projects:
     - name: zmk
