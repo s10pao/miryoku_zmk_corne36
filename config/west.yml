@@ -9,8 +9,8 @@ manifest:
     - name: urob
       url-base: https://github.com/urob/
     # Custom graphics
-    - name: m165437
-      url-base: https://github.com/M165437
+    - name: s10pa #m165437
+      url-base: https://github.com/s10pao/ #https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,7 +19,7 @@ manifest:
       remote: urob
       import: include
     - name: nice-view-gem
-      remote: m165437
-      # revision: main
+      remote: s10pao #m165437
+      revision: v0.3.0_custom #main
   self:
     path: config
