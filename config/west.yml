@@ -3,24 +3,24 @@ manifest:
     revision: v0.3.0
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/s10pao/ #https://github.com/zmkfirmware
+      url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob/
     # Custom graphics
-    - name: s10pao #m165437
-      url-base: https://github.com/s10pao/ #https://github.com/M165437
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-      revision: v0.3.0 #v0.3-branch
+      revision: v0.3.0
     - name: zmk-helpers
       remote: urob
       import: include
     - name: nice-view-gem
-      remote: s10pao #m165437
+      remote: m165437
       revision: v0.3.0 #v0.3.0_custom #main
   self:
     path: config
