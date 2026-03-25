@@ -1,5 +1,5 @@
 
-if SHIELD_CORNE_LEFT
+if SHIELD_CORNE_LEFT || SHIELD_CORNE_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "s10pao_crkbd"
