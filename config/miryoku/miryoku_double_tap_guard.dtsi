@@ -21,7 +21,7 @@ MIRYOKU_LAYER_LIST
 #else
 
 #define MIRYOKU_X(LAYER, STRING) \
-U_MACRO(u_to_U_##LAYER, wait-ms = <0>; bindings = <&to LAYER>;)
+U_MACRO(u_to_U_##LAYER, wait-ms = <0>; bindings = <&to U_##LAYER>;)
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
 
