@@ -1,6 +1,7 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#if 0
 #define MIRYOKU_DOUBLE_TAP_GUARD(NAME, BINDING) \
 / { \
   behaviors { \
@@ -12,6 +13,9 @@
     }; \
   }; \
 };
+#else
+#define MIRYOKU_DOUBLE_TAP_GUARD(NAME, BINDING) #define NAME BINDING
+#endif
 
 #define MIRYOKU_X(LAYER, STRING) \
 MIRYOKU_DOUBLE_TAP_GUARD(u_to_U_##LAYER, &to U_##LAYER)
