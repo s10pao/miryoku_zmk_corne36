@@ -19,16 +19,11 @@ MIRYOKU_DOUBLE_TAP_GUARD(u_to_U_##LAYER, &to U_##LAYER)
 MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
 #else
-#define u_to_U_BASE   &to U_BASE
-#define u_to_U_EXTRA  &to U_EXTRA
-#define u_to_U_TAP    &to U_TAP
-#define u_to_U_BUTTON &to U_BUTTON
-#define u_to_U_NAV    &to U_NAV
-#define u_to_U_MOUSE  &to U_MOUSE
-#define u_to_U_MEDIA  &to U_MEDIA
-#define u_to_U_NUM    &to U_NUM
-#define u_to_U_SYM    &to U_SYM
-#define u_to_U_FUN    &to U_FUN
+
+#define MIRYOKU_X(LAYER, STRING) U_MACRO(u_to_U_##LAYER, wait-ms = <0>; bindings = <&to LAYER>;)
+MIRYOKU_LAYER_LIST
+#undef MIRYOKU_X
+
 #endif
 
 #if defined (MIRYOKU_KLUDGE_DOUBLETAPBOOT)
