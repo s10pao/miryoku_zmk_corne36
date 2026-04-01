@@ -18,7 +18,7 @@ MIRYOKU_X(NUM,    "Num    S10PAO") \
 MIRYOKU_X(SYM,    "Sym    S10PAO") \
 MIRYOKU_X(FUN,    "Fun    S10PAO")
 
-#if 0
+#if 1
 #define U_BASE   0
 #define U_EXTRA  1
 #define U_TAP    2
