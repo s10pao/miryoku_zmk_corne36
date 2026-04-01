@@ -30,7 +30,7 @@ MIRYOKU_X(FUN,    "Fun    S10PAO")
 #define U_SYM    8
 #define U_FUN    9
 #else
-enum {
+enum keymap_layers {
     U_BASE
     ,U_EXTRA
     ,U_TAP
