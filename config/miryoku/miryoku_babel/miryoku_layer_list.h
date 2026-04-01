@@ -18,6 +18,7 @@ MIRYOKU_X(NUM,    "Num    S10PAO") \
 MIRYOKU_X(SYM,    "Sym    S10PAO") \
 MIRYOKU_X(FUN,    "Fun    S10PAO")
 
+#if 0
 #define U_BASE   0
 #define U_EXTRA  1
 #define U_TAP    2
@@ -28,5 +29,19 @@ MIRYOKU_X(FUN,    "Fun    S10PAO")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
+#else
+enum {
+    U_BASE
+    ,U_EXTRA
+    ,U_TAP
+    ,U_BUTTON
+    ,U_NAV
+    ,U_MOUSE
+    ,U_MEDIA
+    ,U_NUM
+    ,U_SYM
+    ,U_FUN
+};
+#endif
 
 #endif
