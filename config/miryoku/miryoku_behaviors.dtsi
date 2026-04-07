@@ -23,6 +23,7 @@
       hold-trigger-key-positions = <RT0 RT1 RT2 RT3 RT4 RT5   RM0 RM1 RM2 RM3 RM4 RM5   RB0 RB1 RB2 RB3 RB4 RB5   LH2 LH1 LH0 RH0 RH1 RH2>;
       require-prior-idle-ms = <150>;
       quick-tap-ms = <175>;
+      hold-trigger-on-release;
     };
     u_rmt_ga: u_rmt_ga {
       compatible = "zmk,behavior-hold-tap";
@@ -33,6 +34,7 @@
       hold-trigger-key-positions = <LT5 LT4 LT3 LT2 LT1 LT0   LM5 LM4 LM3 LM2 LM1 LM0   LB5 LB4 LB3 LB2 LB1 LB0   LH2 LH1 LH0 RH0 RH1 RH2>;
       require-prior-idle-ms = <150>;
       quick-tap-ms = <175>;
+      hold-trigger-on-release;
     };
     u_lmt_cs: u_lmt_cs {
       compatible = "zmk,behavior-hold-tap";
@@ -42,6 +44,7 @@
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <RT0 RT1 RT2 RT3 RT4 RT5   RM0 RM1 RM2 RM3 RM4 RM5   RB0 RB1 RB2 RB3 RB4 RB5   LH2 LH1 LH0 RH0 RH1 RH2>;
       quick-tap-ms = <150>;
+      hold-trigger-on-release;
     };
     u_rmt_cs: u_rmt_cs {
       compatible = "zmk,behavior-hold-tap";
@@ -51,6 +54,7 @@
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <LT5 LT4 LT3 LT2 LT1 LT0   LM5 LM4 LM3 LM2 LM1 LM0   LB5 LB4 LB3 LB2 LB1 LB0   LH2 LH1 LH0 RH0 RH1 RH2>;
       quick-tap-ms = <150>;
+      hold-trigger-on-release;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
