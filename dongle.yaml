@@ -30,5 +30,7 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
   - board: seeeduino_xiao_ble
+    shield: settings_reset
+  - board: seeeduino_xiao_ble
     shield: corne_dongle
     # cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=2 -DCONFIG_BT_MAX_CONN=6 -DCONFIG_BT_MAX_PAIRED=6
