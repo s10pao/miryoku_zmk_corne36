@@ -38,6 +38,6 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: seeeduino_xiao_ble
-    shield: corne_dongle
+    shield: corne_dongle nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SLEEP=n
     # cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=2 -DCONFIG_BT_MAX_CONN=6 -DCONFIG_BT_MAX_PAIRED=6
