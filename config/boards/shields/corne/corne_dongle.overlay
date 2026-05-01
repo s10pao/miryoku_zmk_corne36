@@ -81,6 +81,7 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
     // TODO: per-key RGB node(s)?
 };
 
+/*
 &pro_micro_i2c {
     status = "okay";
 
@@ -100,6 +101,7 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
         prechargep = <0x22>;
     };
 };
+*/
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -126,5 +128,3 @@ nice_view_spi: &spi0 {
     pinctrl-names = "default", "sleep";
     cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
 };
-/*
-*/
